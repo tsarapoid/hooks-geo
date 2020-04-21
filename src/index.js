@@ -12,7 +12,7 @@ ReactDOM.render(
 			timeout: Infinity,
 			maximumAge: 0}
 		}/>
-   </React.StrictMode>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Mapp from './map';
 import {usePosition} from './usePosition';
 
-const Demo = ({watch, settings}) => {
+export const Demo = ({watch, settings}) => {
   const {
     latitude,
     longitude,
@@ -20,20 +20,16 @@ const Demo = ({watch, settings}) => {
 	
   return (
     <>
-      <code>
-        latitude: {latitude}<br/>
-        longitude: {longitude}<br/>
-        timestamp: {time}<br/>
-        accuracy: {accuracy && `${accuracy} m`}<br/>
-        error: {error} {loader}
-      </code>
+      latitude: {latitude}<br/>
+      longitude: {longitude}<br/>
+			timestamp: {time}<br/>
+      accuracy: {accuracy && `${accuracy} m`}<br/>
+      error: {error} {loader}
+		<br/>
+		<br/>
+		<Mapp latitude = {latitude} longitude = {longitude}/> 
     </>
   );
-};
-
-Demo.propTypes = {
-  watch: PropTypes.bool,
-  settings: PropTypes.object,
 };
 
 export default Demo;
