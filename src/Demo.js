@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {usePosition} from '../src/usePosition';
+import {usePosition} from './usePosition';
 
-export const Demo = ({watch, settings}) => {
+const Demo = ({watch, settings}) => {
   const {
     latitude,
     longitude,
@@ -13,14 +13,13 @@ export const Demo = ({watch, settings}) => {
 
   const loader = !latitude && !error ? (
     <>
-      <div>Trying to fetch location...</div>
       <br/>
+      <div>fetching location...</div>
     </>
   ) : null;
 
   return (
     <>
-      {loader}
       <code>
         latitude: {latitude}<br/>
         longitude: {longitude}<br/>
@@ -28,6 +27,8 @@ export const Demo = ({watch, settings}) => {
         accuracy: {accuracy && `${accuracy}m`}<br/>
         error: {error}
       </code>
+      <br/>
+			{loader}
     </>
   );
 };
