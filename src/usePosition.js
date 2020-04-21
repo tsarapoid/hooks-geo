@@ -1,13 +1,18 @@
 import {useState, useEffect} from 'react';
 
-const defaultSettings = {
+	const defaultSettings = {
   enableHighAccuracy: false,
   timeout: Infinity,
   maximumAge: 0,
 };
 
-export const usePosition = (watch = false, settings = defaultSettings) => {
-  const [position, setPosition] = useState({});
+	export const usePosition = (watch = false, settings = defaultSettings) => {
+//export const usePosition = (watch, settings) => {
+
+	console.log(watch, settings);
+//console.log(watch, JSON.stringify(settings));
+
+	const [position, setPosition] = useState({});
   const [error, setError] = useState(null);
 
   const onChange = ({coords, timestamp}) => {
@@ -36,9 +41,16 @@ export const usePosition = (watch = false, settings = defaultSettings) => {
     } else {
       navigator.geolocation.getCurrentPosition(onChange, onError, settings);
     }
-
-    return () => watcher && navigator.geolocation.clearWatch(watcher);
-  }, [settings.enableHighAccuracy, settings.timeout, settings.maximumAge, watch, settings]);
+	
+		return () => watcher && navigator.geolocation.clearWatch(watcher);
+	}, [watch, settings]);
+	
+	/*return () => watcher && navigator.geolocation.clearWatch(watcher);
+  }, [
+    settings.enableHighAccuracy,
+    settings.timeout,
+    settings.maximumAge,
+	]);*/
 
   return {...position, error};
 };

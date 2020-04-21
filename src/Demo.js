@@ -11,24 +11,22 @@ const Demo = ({watch, settings}) => {
     error,
   } = usePosition(watch, settings);
 
-  const loader = !latitude && !error ? (
-    <>
-      <br/>
-      <div>fetching location...</div>
-    </>
-  ) : null;
+	const date = new Date(timestamp)
+	const time = date.toTimeString()
+	console.log(date.toLocaleString());
 
+  const loader = !latitude && !error ?
+		("Fetching location") : null;
+	
   return (
     <>
       <code>
         latitude: {latitude}<br/>
         longitude: {longitude}<br/>
-        timestamp: {timestamp}<br/>
-        accuracy: {accuracy && `${accuracy}m`}<br/>
-        error: {error}
+        timestamp: {time}<br/>
+        accuracy: {accuracy && `${accuracy} m`}<br/>
+        error: {error} {loader}
       </code>
-      <br/>
-			{loader}
     </>
   );
 };

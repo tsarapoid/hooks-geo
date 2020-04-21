@@ -5,8 +5,19 @@ import Demo from './demo';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Demo watch={true} settings={{enableHighAccuracy: false, timeout: Infinity, maximumAge: 0}} />
-  </React.StrictMode>,
+		{/* <Demo/> */}
+		<Demo watch={true}
+		settings={
+			{enableHighAccuracy: true,
+			timeout: Infinity,
+			maximumAge: 0}
+		}/>
+   </React.StrictMode>,
   document.getElementById('root')
 );
 
+/*const defaultSettings = {
+  enableHighAccuracy: false,
+  timeout: Infinity,
+  maximumAge: 0,
+};*/
