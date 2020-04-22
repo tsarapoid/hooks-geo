@@ -28,13 +28,13 @@ export const Mapp = ({latitude = 45.0428000, longitude = 41.9734000}) => (
 		center={[latitude, longitude]}
 /*  		width={400}
 		height={200} */
-		zoom={13}
-		minZoom={1}
+		zoom={16}
+		minZoom={12}
 		maxZoom={18}
-		zoomSnap={true}
+		zoomSnap={false}
 		animate={true}
 		animating={false}
-		metaWheelZoom={false}
+		metaWheelZoom={true}
 		twoFingerDrag={false}
 		mouseEvents={true}
 		touchEvents={true}
