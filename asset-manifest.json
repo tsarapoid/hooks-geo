@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hooks-geo/static/css/main.b58f3be2.chunk.css",
+    "main.css": "/hooks-geo/static/css/main.c6bdcbe2.chunk.css",
     "main.js": "/hooks-geo/static/js/main.2b4e2e00.chunk.js",
     "main.js.map": "/hooks-geo/static/js/main.2b4e2e00.chunk.js.map",
     "runtime-main.js": "/hooks-geo/static/js/runtime-main.8a91a3c8.js",
@@ -8,15 +8,15 @@
     "static/js/2.0d34a311.chunk.js": "/hooks-geo/static/js/2.0d34a311.chunk.js",
     "static/js/2.0d34a311.chunk.js.map": "/hooks-geo/static/js/2.0d34a311.chunk.js.map",
     "index.html": "/hooks-geo/index.html",
-    "precache-manifest.d99f646209b46b979e2baa2c5d3796a0.js": "/hooks-geo/precache-manifest.d99f646209b46b979e2baa2c5d3796a0.js",
+    "precache-manifest.50270f3c91523f9d416737d54ebcc2de.js": "/hooks-geo/precache-manifest.50270f3c91523f9d416737d54ebcc2de.js",
     "service-worker.js": "/hooks-geo/service-worker.js",
-    "static/css/main.b58f3be2.chunk.css.map": "/hooks-geo/static/css/main.b58f3be2.chunk.css.map",
+    "static/css/main.c6bdcbe2.chunk.css.map": "/hooks-geo/static/css/main.c6bdcbe2.chunk.css.map",
     "static/js/2.0d34a311.chunk.js.LICENSE.txt": "/hooks-geo/static/js/2.0d34a311.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8a91a3c8.js",
     "static/js/2.0d34a311.chunk.js",
-    "static/css/main.b58f3be2.chunk.css",
+    "static/css/main.c6bdcbe2.chunk.css",
     "static/js/main.2b4e2e00.chunk.js"
   ]
 }
