@@ -2,6 +2,8 @@ import React from 'react';
 import Mapp from './map';
 import {usePosition} from './usePosition';
 
+import "./demo.css"
+
 export const Demo = ({watch, settings}) => {
   const {
     latitude,
@@ -19,7 +21,7 @@ export const Demo = ({watch, settings}) => {
 		("Fetching location") : null;
 	
   return (
-    <>
+		<div className="app">
       latitude: {latitude}<br/>
       longitude: {longitude}<br/>
 			timestamp: {time}<br/>
@@ -27,8 +29,8 @@ export const Demo = ({watch, settings}) => {
       error: {error} {loader}
 		<br/>
 		<br/>
-		<Mapp latitude = {latitude} longitude = {longitude}/> 
-    </>
+			<Mapp latitude = {latitude} longitude = {longitude}/> 
+    </div>
   );
 };
 
