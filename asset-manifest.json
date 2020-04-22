@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hooks-geo/static/css/main.e97b5ecb.chunk.css",
-    "main.js": "/hooks-geo/static/js/main.59bd4087.chunk.js",
-    "main.js.map": "/hooks-geo/static/js/main.59bd4087.chunk.js.map",
+    "main.css": "/hooks-geo/static/css/main.b73c0ff0.chunk.css",
+    "main.js": "/hooks-geo/static/js/main.52d2f7d2.chunk.js",
+    "main.js.map": "/hooks-geo/static/js/main.52d2f7d2.chunk.js.map",
     "runtime-main.js": "/hooks-geo/static/js/runtime-main.8a91a3c8.js",
     "runtime-main.js.map": "/hooks-geo/static/js/runtime-main.8a91a3c8.js.map",
     "static/js/2.0d34a311.chunk.js": "/hooks-geo/static/js/2.0d34a311.chunk.js",
     "static/js/2.0d34a311.chunk.js.map": "/hooks-geo/static/js/2.0d34a311.chunk.js.map",
     "index.html": "/hooks-geo/index.html",
-    "precache-manifest.0522848e4bbc89551f8a2d3d4c6c3913.js": "/hooks-geo/precache-manifest.0522848e4bbc89551f8a2d3d4c6c3913.js",
+    "precache-manifest.afb4619a2b8200aadd9502838d254aaa.js": "/hooks-geo/precache-manifest.afb4619a2b8200aadd9502838d254aaa.js",
     "service-worker.js": "/hooks-geo/service-worker.js",
-    "static/css/main.e97b5ecb.chunk.css.map": "/hooks-geo/static/css/main.e97b5ecb.chunk.css.map",
+    "static/css/main.b73c0ff0.chunk.css.map": "/hooks-geo/static/css/main.b73c0ff0.chunk.css.map",
     "static/js/2.0d34a311.chunk.js.LICENSE.txt": "/hooks-geo/static/js/2.0d34a311.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8a91a3c8.js",
     "static/js/2.0d34a311.chunk.js",
-    "static/css/main.e97b5ecb.chunk.css",
-    "static/js/main.59bd4087.chunk.js"
+    "static/css/main.b73c0ff0.chunk.css",
+    "static/js/main.52d2f7d2.chunk.js"
   ]
 }

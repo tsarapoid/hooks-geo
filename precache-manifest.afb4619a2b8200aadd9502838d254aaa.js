@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29f9b37ea8074ed643da05988a3b392b",
+    "revision": "01e07978441efec4ed25687205f4d820",
     "url": "/hooks-geo/index.html"
   },
   {
-    "revision": "6808a63c2c2c6b9c6ec6",
-    "url": "/hooks-geo/static/css/main.e97b5ecb.chunk.css"
+    "revision": "b1183fd6c5563ec5f19f",
+    "url": "/hooks-geo/static/css/main.b73c0ff0.chunk.css"
   },
   {
     "revision": "e81a6e701210f07554c6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hooks-geo/static/js/2.0d34a311.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6808a63c2c2c6b9c6ec6",
-    "url": "/hooks-geo/static/js/main.59bd4087.chunk.js"
+    "revision": "b1183fd6c5563ec5f19f",
+    "url": "/hooks-geo/static/js/main.52d2f7d2.chunk.js"
   },
   {
     "revision": "399474f447441af4c462",
