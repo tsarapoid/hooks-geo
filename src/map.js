@@ -25,8 +25,8 @@ export const Mapp = ({latitude = 45.0428000, longitude = 41.9734000}) => (
 	<Map
 		provider={osm}
 		center={[latitude, longitude]}
-		width={1500}
-		height={800}
+ 		width={300}
+		height={200}
 		zoom={13}
 		minZoom={1}
 		maxZoom={18}
