@@ -10,7 +10,7 @@ ReactDOM.render(
 		settings={
 			{enableHighAccuracy: true,
 			timeout: Infinity,
-			maximumAge: 0}
+			maximumAge: 10000}
 		}/>
   </React.StrictMode>,
   document.getElementById('root')

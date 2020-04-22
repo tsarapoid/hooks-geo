@@ -3,11 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
 
-	height: 800px;
-	width: 600px;
+	height: 700px;
+	width: 400px;
 
-	min-height: 200px;
-	min-width: 100px;
-	max-height: 1000px;
-	max-width: 1600px;
 }
