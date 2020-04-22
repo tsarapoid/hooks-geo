@@ -22,13 +22,13 @@ export const Demo = ({watch, settings}) => {
 	
   return (
 		<div className="app">
-      latitude: {latitude}<br/>
+{/*       latitude: {latitude}<br/>
       longitude: {longitude}<br/>
 			timestamp: {time}<br/>
       accuracy: {accuracy && `${accuracy} m`}<br/>
       error: {error} {loader}
 		<br/>
-		<br/>
+		<br/> */}
 			<Mapp latitude = {latitude} longitude = {longitude}/> 
     </div>
   );

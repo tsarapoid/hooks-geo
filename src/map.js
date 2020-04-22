@@ -22,7 +22,7 @@ const osm = (x, y, z) => {
 } */
 
 /* export const Mapp = ({latitude = 45.0428000, longitude = 41.9734000}) => ( */
-export const Mapp = ({latitude = 45.0000000, longitude = 42.0000000}) => (	
+export const Mapp = ({latitude = 45.0428000, longitude = 41.9734000}) => (	
 	<Map
 		provider={osm}
 		center={[latitude, longitude]}
