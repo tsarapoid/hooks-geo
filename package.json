@@ -2,10 +2,16 @@
   "name": "hooks-geo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tsarapoid.github.io/hooks-geo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsarapoid/hooks-geo.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
     "pigeon-maps": "^0.15.0",
     "pigeon-marker": "^0.3.4",
     "pigeon-overlay": "^0.2.3",
@@ -18,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
