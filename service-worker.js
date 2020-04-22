@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hooks-geo/precache-manifest.af425c81dd4b0d2db02ba878fd1aefe1.js"
+  "/hooks-geo/precache-manifest.d9008860383f1408b6079a1ee82cf87e.js"
 );
 
 self.addEventListener('message', (event) => {
