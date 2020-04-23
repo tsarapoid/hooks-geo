@@ -2,7 +2,7 @@ import React from 'react';
 import Mapp from './hooks/map';
 import {usePosition} from './hooks/geo';
 
-import "./css.css"
+import "./styles.css"
 
 export const Demo = ({watch, settings}) => {
   const {
