@@ -1,8 +1,8 @@
 import React from 'react';
-import Mapp from './map';
-import {usePosition} from './usePosition';
+import Mapp from './hooks/map';
+import {usePosition} from './hooks/usePosition';
 
-import "./demo.css"
+import "./css.css"
 
 export const Demo = ({watch, settings}) => {
   const {
@@ -22,14 +22,18 @@ export const Demo = ({watch, settings}) => {
 	
   return (
 		<div className="app">
-{/*       latitude: {latitude}<br/>
+{/*   latitude: {latitude}<br/>
       longitude: {longitude}<br/>
 			timestamp: {time}<br/>
       accuracy: {accuracy && `${accuracy} m`}<br/>
       error: {error} {loader}
 		<br/>
 		<br/> */}
+
+
+					<div className="demo">
 			<Mapp latitude = {latitude} longitude = {longitude}/> 
+			</div>
     </div>
   );
 };

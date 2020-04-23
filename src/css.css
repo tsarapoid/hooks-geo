@@ -1,0 +1,29 @@
+body,html {
+	display: flex;
+	background-color: gray;
+}
+
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.demo {
+	height: 100%;
+	width: 100%;
+
+/* 	min-height: 400px;
+	min-width: 400px;
+	max-height: 1000px;
+	max-width: 1600px;    */
+
+	background-color: gray;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	}

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Demo from './demo';
+import './css.css';
+
+import Demo from "./demo";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,7 +11,7 @@ ReactDOM.render(
 		settings={
 			{enableHighAccuracy: true,
 			timeout: Infinity,
-			maximumAge: 10000}
+			maximumAge: 6000}
 		}/>
   </React.StrictMode>,
   document.getElementById('root')
