@@ -1,6 +1,6 @@
 import React from 'react';
 import Mapp from './hooks/map';
-import {usePosition} from './hooks/usePosition';
+import {usePosition} from './hooks/geo';
 
 import "./css.css"
 
