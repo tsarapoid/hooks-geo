@@ -29,10 +29,8 @@ export const Demo = ({watch, settings}) => {
       error: {error} {loader}
 		<br/>
 		<br/> */}
-
-
-					<div className="demo">
-			<Mapp latitude = {latitude} longitude = {longitude}/> 
+			<div className="demo">
+				<Mapp latitude = {latitude} longitude = {longitude}/> 
 			</div>
     </div>
   );

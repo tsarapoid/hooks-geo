@@ -35,7 +35,7 @@ export const Mapp = ({latitude = 45.0428000, longitude = 41.9734000}) => (
 		center={[latitude, longitude]}
 /*  width={400}
 		height={200} */
-		zoom={18}
+ 		zoom={18}
 		minZoom={12}
 		maxZoom={18}
 		zoomSnap={true}

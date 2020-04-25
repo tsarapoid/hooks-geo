@@ -6,7 +6,7 @@ import {useState, useEffect} from 'react';
   maximumAge: 0,
 };
 
-	export const usePosition = (watch = false, settings = defaultSettings) => {
+	export const usePosition = ({watch = true, settings = defaultSettings}) => {
 //export const usePosition = (watch, settings) => {
 
 	console.log(watch, settings);
